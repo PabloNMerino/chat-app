@@ -25,6 +25,7 @@ main
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     gap: 7.5rem;
     margin: 5.6rem 0;
 }
@@ -104,12 +105,196 @@ main .phone
     color: hsl(206, 6%, 79%);
 }
 
+
+/*-----------------------------------------------------*/
+
 .contenidoChat
 {
     width: 245px;
     height: 450px;
     background-color: hsl(270, 20%, 96%);
     border-radius: 0 0 2.5rem 2.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    box-sizing: border-box;
+    padding: 1rem;
+}
+
+.grupo-texto-1 .fondo-gris-1, .grupo-texto-2 .fondo-blanco-1
+{
+    width: 160px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.grupo-texto-1 .fondo-gris-1
+{
+    background-color: hsl(206, 6%, 79%);
+    border-radius: 1.2rem 1.2rem 1.2rem 0.5rem;
+}
+
+.fondo-gris-1 p
+{
+    color: hsl(276, 55%, 52%);
+}
+
+.grupo-texto-2
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    align-self: flex-end;
+}
+
+.grupo-texto-2 .imagenes-perros
+{
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.img1, .img2, .img3
+{
+    width: 45px;
+    height: 45px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 1rem;
+}
+
+.img1
+{
+    background-image: url(../images/dog-image-1.jpg);
+}
+
+.img2
+{
+    background-image: url(../images/dog-image-2.jpg);
+}
+
+.img3
+{
+    background-image: url(../images/dog-image-3.jpg);
+}
+
+.grupo-texto-2 .fondo-blanco-1
+{
+    background-color: white;
+    border-radius: 1.2rem 1.2rem 0.5rem 1.2rem;
+}
+
+.grupo-texto-2 .fondo-blanco-2
+{
+    width: 100px;
+    height: 25px;
+    background-color: white;
+    border-radius: 1.2rem 1.2rem 0.5rem 1.2rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.fondo-blanco-2 p, .fondo-blanco-1 p
+{
+    color: hsl(271, 15%, 43%);
+}
+
+.grupo-texto-3 .fondo-gris-2
+{
+    width: 160px;
+    height: 50px;
+    background-color: hsl(206, 6%, 79%);
+    border-radius: 1.2rem 1.2rem 1.2rem 0.5rem;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.fondo-gris-2 p
+{
+    color: hsl(276, 55%, 52%);
+}
+
+.grupo-texto-3 .walk
+{
+    width: 180px;
+    height: 35px;
+    background-image: linear-gradient(to right, hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+    border-radius: 1.2rem 1.2rem 1.2rem 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 0 1rem;
+    margin-bottom: 1rem;
+}
+
+.walk .walk-izq
+{   
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    color: white;
+}
+
+.walk-der p
+{
+    color: white;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.type-a-message
+{
+    display: flex;
+}
+
+.ventana-de-tipeo input
+{
+    border: 0;
+    width: 190px;
+    height: 35px;
+    border-radius: 1.7rem 0 0 1.7rem;
+    padding-left: 1rem;
+    box-sizing: border-box;
+}
+
+.type-a-message .fondo-blanco-3
+{
+    width: 35px;
+    height: 35px;
+    background-color: white;
+    border-radius: 0 1.7rem 1.7rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fondo-blanco-3 .boton-negro
+{
+    width: 25px;
+    height: 25px;
+    background-color: black;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boton-negro .fa-angle-right
+{
+    color: white;
 }
 
 /*-----------------------------------------------------*/
